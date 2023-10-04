@@ -1,0 +1,160 @@
+* {
+  font-family: Nunito Sans;
+}
+
+.base.margin-l-r {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.base {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.spc-btw {
+  display: flex;
+  justify-content: space-between;
+}
+.button-back {
+  border: none;
+  color: black;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px 24px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media only screen and (max-width: 3000px) {
+  .last-div {
+    height: 940px;
+    margin-top: -1px;
+  }
+  .last-div-home {
+    height: 1000px;
+    margin-top: -1px;
+  }
+  .no-element {
+    height: 2800px;
+    margin-top: -1px;
+  }
+}
+@media only screen and (max-width: 2440px) {
+  .last-div {
+    height: 500px;
+    margin-top: -1px;
+  }
+  .last-div-home {
+    height: 630px;
+    margin-top: -1px;
+  }
+  .no-element {
+    height: 1000px;
+    margin-top: -1px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .last-div {
+    height: 500px;
+    margin-top: -1px;
+  }
+  .last-div-home {
+    height: 630px;
+    margin-top: -1px;
+  }
+  .no-element {
+    height: 1300px;
+    margin-top: -1px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .last-div {
+    height: 480px;
+    margin-top: -1px;
+  }
+  .last-div-home {
+    height: 976px;
+    margin-top: -1px;
+  }
+  .no-element {
+    height: 965px;
+    margin-top: -1px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .last-div {
+    height: 452px;
+    margin-top: -1px;
+  }
+  .last-div-home {
+    height: 480px;
+    margin-top: -1px;
+  }
+  .no-element {
+    height: 960px;
+    margin-top: -1px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .last-div {
+    height: 380px;
+    margin-top: -1px;
+  }
+  .no-element {
+    height: 960px;
+    margin-top: -1px;
+  }
+  .last-div-home {
+    height: 475px;
+    margin-top: -1px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .spc-btw {
+    display: block;
+  }
+  .no-element {
+    height: 550px;
+    margin-top: -1px;
+  }
+  .last-div {
+    height: 5px;
+    margin-top: -1px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .spc-btw {
+    display: block;
+  }
+  .no-element {
+    height: 700px;
+    margin-top: -1px;
+  }
+  .no-element {
+    height: 550px;
+    margin-top: -1px;
+  }
+  .last-div {
+    height: 5px;
+    margin-top: -1px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .spc-btw {
+    display: block;
+  }
+  .no-element {
+    height: 550px;
+    margin-top: -1px;
+  }
+  .button-back {
+    margin: 4px 10px;
+    font-size: 12px;
+  }
+  .last-div {
+    height: 0px;
+    margin-top: -1px;
+  }
+}

@@ -1,0 +1,46 @@
+.nav-main {
+  line-height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.nav-item-1 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.nav-item-2 {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1250px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 770px) {
+  .nav-item-1 {
+    font-size: 19px;
+  }
+  .nav-item-2 {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .nav-item-1 {
+    font-size: 18px;
+  }
+  .nav-item-2 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .nav-item-1 {
+    font-size: 17px;
+  }
+  .nav-item-2 {
+    font-size: 14px;
+  }
+}

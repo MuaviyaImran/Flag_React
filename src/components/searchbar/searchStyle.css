@@ -1,0 +1,96 @@
+.main {
+  width: 550px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.has-search .form-control {
+  padding: 14px 67px;
+  font-weight: 300;
+  border: none;
+}
+
+.form-control::placeholder {
+  color: hsl(0, 0%, 52%);
+  font-weight: 600px;
+}
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 3.3rem;
+  text-align: center;
+  margin-left: 10px;
+
+  pointer-events: none;
+  color: #aaa;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main {
+    width: 670px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .main {
+    width: 550px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .main {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .main {
+    width: 420px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .main {
+    width: 380px;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .main {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .main {
+    width: 330px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    width: 100%;
+  }
+  .dropdown {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .main {
+    width: 100%;
+  }
+  .dropdown {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .main {
+    width: 100%;
+  }
+  .dropdown {
+    margin-top: 40px;
+  }
+}
